@@ -70,6 +70,7 @@ public class DaoFileTest {
 		book2.setId(1);
 		Book book3 = new Book("A Gyűrűk Ura","J. R. R. Tolkien",Genre.FANTASY,2018,true);
 		book3.setId(2);
+		
 		expected.add(book1);
 		expected.add(book2);
 		expected.add(book3);
