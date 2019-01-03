@@ -27,7 +27,7 @@ public class DaoFile implements BookDAO{
 	public DaoFile(File database) {
 		this.database = database;
 	}
-	
+
 	public void createBook(Book book) throws DuplicatedBookEntryException {
 		ArrayList<Book> bookList = readBooks();
 		if(bookList.contains(book)) {
